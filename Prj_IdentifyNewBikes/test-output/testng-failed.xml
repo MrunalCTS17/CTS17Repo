@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.TC3_UpcomingBikes">
+        <methods>
+          <include name="sortingDetails"/>
+          <include name="makeHonda"/>
+          <include name="displayingDetails"/>
+          <include name="newUpcomingBikes"/>
+          <include name="hondaBikesDetail"/>
+        </methods>
+      </class> <!-- testcases.TC3_UpcomingBikes -->
+      <class name="testcases.TC2_LaunchURL">
+        <methods>
+          <include name="getURL"/>
+        </methods>
+      </class> <!-- testcases.TC2_LaunchURL -->
+      <class name="testcases.TC5_GoogleSignIn">
+        <methods>
+          <include name="screenshotErrMsg"/>
+          <include name="signUp"/>
+        </methods>
+      </class> <!-- testcases.TC5_GoogleSignIn -->
+      <class name="testcases.TC1_BrowserSelect">
+        <methods>
+          <include name="userInput"/>
+          <include name="closeScQuitBrowser"/>
+          <include name="selDriver"/>
+        </methods>
+      </class> <!-- testcases.TC1_BrowserSelect -->
+      <class name="testcases.TC4_UsedCars">
+        <methods>
+          <include name="popularModels"/>
+          <include name="usedCarsChn"/>
+        </methods>
+      </class> <!-- testcases.TC4_UsedCars -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
