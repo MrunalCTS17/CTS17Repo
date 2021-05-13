@@ -36,7 +36,7 @@
 			<configuration>
 				<suiteXmlFiles>
 				<!-- TestNG suite XML files -->
-					<suiteXmlFile>C:\Users\Mrunal Sharma\eclipse-workspace\jenkins\testng.xml</suiteXmlFile>
+					<suiteXmlFile>C:\Users\Mrunal Sharma\git\CTS17Repo\jenkins\testng.xml</suiteXmlFile>
 				</suiteXmlFiles>
 			</configuration>
 	</plugin>
