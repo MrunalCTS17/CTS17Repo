@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,17 +49,17 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\ANMOL\eclipse-workspace\Prj_IdentifyNewBikes\testng.xml</span>
+                    <span>C:\Users\ANMOL\eclipse-workspace\Prj_IdentifyNewBikes\src\test\resources\runner\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>4 groups</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,   11 passed</span>
+                    <span class="method-stats">12 methods, 3 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MainScript" class="method navigator-link" hash-for-method="googleSignIn">googleSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MainScript" class="method navigator-link" hash-for-method="upBikes">upBikes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MainScript" class="method navigator-link" hash-for-method="usedCars">usedCars</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,57 +126,47 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.TC3_UpcomingBikes" class="method navigator-link" hash-for-method="displayingDetails">displayingDetails</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.MainScript" class="method navigator-link" hash-for-method="googleSignIn">googleSignIn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.TC2_LaunchURL" class="method navigator-link" hash-for-method="getURL">getURL</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.MainScript" class="method navigator-link" hash-for-method="googleSignIn">googleSignIn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.TC3_UpcomingBikes" class="method navigator-link" hash-for-method="hondaBikesDetail">hondaBikesDetail</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.MainScript" class="method navigator-link" hash-for-method="launchURL(chrome)">launchURL(chrome)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.TC3_UpcomingBikes" class="method navigator-link" hash-for-method="makeHonda">makeHonda</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.MainScript" class="method navigator-link" hash-for-method="launchURL(firefox)">launchURL(firefox)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.TC3_UpcomingBikes" class="method navigator-link" hash-for-method="newUpcomingBikes">newUpcomingBikes</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.MainScript" class="method navigator-link" hash-for-method="launchURL(edge)">launchURL(edge)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.TC4_UsedCars" class="method navigator-link" hash-for-method="popularModels">popularModels</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.MainScript" class="method navigator-link" hash-for-method="upBikes">upBikes</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.TC5_GoogleSignIn" class="method navigator-link" hash-for-method="screenshotErrMsg">screenshotErrMsg</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.MainScript" class="method navigator-link" hash-for-method="upBikes">upBikes</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.TC1_BrowserSelect" class="method navigator-link" hash-for-method="selDriver">selDriver</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.MainScript" class="method navigator-link" hash-for-method="usedCars">usedCars</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.TC5_GoogleSignIn" class="method navigator-link" hash-for-method="signUp">signUp</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.TC3_UpcomingBikes" class="method navigator-link" hash-for-method="sortingDetails">sortingDetails</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.TC4_UsedCars" class="method navigator-link" hash-for-method="usedCarsChn">usedCarsChn</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.MainScript" class="method navigator-link" hash-for-method="usedCars">usedCars</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -167,119 +181,151 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC3_UpcomingBikes</span>
+              <img src="failed.png"/>
+              <span class="class-name">testcases.MainScript</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="displayingDetails">
-                  </a> <!-- displayingDetails -->
-                  <span class="method-name">displayingDetails</span>
+                  <a name="googleSignIn">
+                  </a> <!-- googleSignIn -->
+                  <span class="method-name">googleSignIn</span>
+                  <div class="stack-trace">java.lang.AssertionError: Unable to locate element: //form/span/section/div/div/div[1]/div/div[2]/div[2]/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANMOLPC&apos;, ip: &apos;192.168.43.55&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 87.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210318103112, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 12228, moz:profile: C:\Users\ANMOL\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5e3c4ba7-6c1e-4119-9815-d009e20a86a6
+*** Element info: {Using=xpath, value=//form/span/section/div/div/div[1]/div/div[2]/div[2]/div}
+	at base.Test_base.reportFail(Test_base.java:319)
+	at base.Test_base.getElement(Test_base.java:208)
+	at base.Test_base.getElementText(Test_base.java:305)
+	at testcases.TC_GoogleSignIn.gettingErrorMsg(TC_GoogleSignIn.java:33)
+	at testcases.MainScript.googleSignIn(MainScript.java:52)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="hondaBikesDetail">
-                  </a> <!-- hondaBikesDetail -->
-                  <span class="method-name">hondaBikesDetail</span>
+                  <a name="upBikes">
+                  </a> <!-- upBikes -->
+                  <span class="method-name">upBikes</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: MicrosoftEdge=90.0.818.56)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANMOLPC&apos;, ip: &apos;192.168.43.55&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 90.0.818.56, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60353}, msedge: {msedgedriverVersion: 89.0.774.75 (5adbe73db95496..., userDataDir: C:\Users\ANMOL\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 390641592172b4ebcbc039df9cb6b7d9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at testcases.TC_UpcomingBikes.hondaBikesDetail(TC_UpcomingBikes.java:32)
+	at testcases.MainScript.upBikes(MainScript.java:30)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="makeHonda">
-                  </a> <!-- makeHonda -->
-                  <span class="method-name">makeHonda</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="newUpcomingBikes">
-                  </a> <!-- newUpcomingBikes -->
-                  <span class="method-name">newUpcomingBikes</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="sortingDetails">
-                  </a> <!-- sortingDetails -->
-                  <span class="method-name">sortingDetails</span>
+                  <a name="usedCars">
+                  </a> <!-- usedCars -->
+                  <span class="method-name">usedCars</span>
+                  <div class="stack-trace">java.lang.AssertionError: Element &lt;a href=&quot;/used-car/Chennai&quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANMOLPC&apos;, ip: &apos;192.168.43.55&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 87.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210318103112, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 12228, moz:profile: C:\Users\ANMOL\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5e3c4ba7-6c1e-4119-9815-d009e20a86a6
+	at base.Test_base.reportFail(Test_base.java:319)
+	at base.Test_base.elementClick(Test_base.java:170)
+	at testcases.TC_HomePage.usedCarsChn(TC_HomePage.java:49)
+	at testcases.MainScript.usedCars(MainScript.java:41)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.TC2_LaunchURL</span>
+              <span class="class-name">testcases.MainScript</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getURL">
-                  </a> <!-- getURL -->
-                  <span class="method-name">getURL</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC5_GoogleSignIn</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="screenshotErrMsg">
-                  </a> <!-- screenshotErrMsg -->
-                  <span class="method-name">screenshotErrMsg</span>
+                  <a name="googleSignIn">
+                  </a> <!-- googleSignIn -->
+                  <span class="method-name">googleSignIn</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="signUp">
-                  </a> <!-- signUp -->
-                  <span class="method-name">signUp</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC1_BrowserSelect</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="selDriver">
-                  </a> <!-- selDriver -->
-                  <span class="method-name">selDriver</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC4_UsedCars</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="popularModels">
-                  </a> <!-- popularModels -->
-                  <span class="method-name">popularModels</span>
+                  <a name="googleSignIn">
+                  </a> <!-- googleSignIn -->
+                  <span class="method-name">googleSignIn</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="usedCarsChn">
-                  </a> <!-- usedCarsChn -->
-                  <span class="method-name">usedCarsChn</span>
+                  <a name="launchURL(chrome)">
+                  </a> <!-- launchURL(chrome) -->
+                  <span class="method-name">launchURL</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchURL(firefox)">
+                  </a> <!-- launchURL(firefox) -->
+                  <span class="method-name">launchURL</span>
+                  <span class="parameters">(firefox)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchURL(edge)">
+                  </a> <!-- launchURL(edge) -->
+                  <span class="method-name">launchURL</span>
+                  <span class="parameters">(edge)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="upBikes">
+                  </a> <!-- upBikes -->
+                  <span class="method-name">upBikes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="upBikes">
+                  </a> <!-- upBikes -->
+                  <span class="method-name">upBikes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usedCars">
+                  </a> <!-- usedCars -->
+                  <span class="method-name">usedCars</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usedCars">
+                  </a> <!-- usedCars -->
+                  <span class="method-name">usedCars</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -287,22 +333,31 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ANMOL\eclipse-workspace\Prj_IdentifyNewBikes\testng.xml</span>
+            <span class="header-content">C:\Users\ANMOL\eclipse-workspace\Prj_IdentifyNewBikes\src\test\resources\runner\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.TC1_BrowserSelect&quot;/&gt;
-      &lt;class name=&quot;testcases.TC2_LaunchURL&quot;/&gt;
-      &lt;class name=&quot;testcases.TC4_UsedCars&quot;/&gt;
-      &lt;class name=&quot;testcases.TC5_GoogleSignIn&quot;/&gt;
-      &lt;class name=&quot;testcases.TC3_UpcomingBikes&quot;/&gt;
+      &lt;class name=&quot;testcases.MainScript&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;FireFoxTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.MainScript&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FireFoxTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EdgeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.MainScript&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -314,7 +369,13 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (5 classes)</span>
+                <span class="test-name">ChromeTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">FireFoxTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EdgeTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -324,58 +385,6 @@
             <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">getURL</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">getURL</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">popModels</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">popularModels</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">usedCarsChn</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">selDriver</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">selDriver</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">upBikes</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">displayingDetails</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">hondaBikesDetail</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">makeHonda</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">newUpcomingBikes</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">sortingDetails</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -392,56 +401,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getURL')
-data.setCell(0, 2, 'testcases.TC2_LaunchURL')
-data.setCell(0, 3, 22786);
+data.setCell(0, 1, 'upBikes')
+data.setCell(0, 2, 'testcases.MainScript')
+data.setCell(0, 3, 57730);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'makeHonda')
-data.setCell(1, 2, 'testcases.TC3_UpcomingBikes')
-data.setCell(1, 3, 20280);
+data.setCell(1, 1, 'launchURL')
+data.setCell(1, 2, 'testcases.MainScript')
+data.setCell(1, 3, 54564);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'usedCarsChn')
-data.setCell(2, 2, 'testcases.TC4_UsedCars')
-data.setCell(2, 3, 16741);
+data.setCell(2, 1, 'launchURL')
+data.setCell(2, 2, 'testcases.MainScript')
+data.setCell(2, 3, 37893);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'signUp')
-data.setCell(3, 2, 'testcases.TC5_GoogleSignIn')
-data.setCell(3, 3, 9334);
+data.setCell(3, 1, 'upBikes')
+data.setCell(3, 2, 'testcases.MainScript')
+data.setCell(3, 3, 31496);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'displayingDetails')
-data.setCell(4, 2, 'testcases.TC3_UpcomingBikes')
-data.setCell(4, 3, 5538);
+data.setCell(4, 1, 'googleSignIn')
+data.setCell(4, 2, 'testcases.MainScript')
+data.setCell(4, 3, 30701);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'selDriver')
-data.setCell(5, 2, 'testcases.TC1_BrowserSelect')
-data.setCell(5, 3, 3569);
+data.setCell(5, 1, 'launchURL')
+data.setCell(5, 2, 'testcases.MainScript')
+data.setCell(5, 3, 27152);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'popularModels')
-data.setCell(6, 2, 'testcases.TC4_UsedCars')
-data.setCell(6, 3, 3409);
+data.setCell(6, 1, 'upBikes')
+data.setCell(6, 2, 'testcases.MainScript')
+data.setCell(6, 3, 25457);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'newUpcomingBikes')
-data.setCell(7, 2, 'testcases.TC3_UpcomingBikes')
-data.setCell(7, 3, 2466);
+data.setCell(7, 1, 'usedCars')
+data.setCell(7, 2, 'testcases.MainScript')
+data.setCell(7, 3, 24821);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'screenshotErrMsg')
-data.setCell(8, 2, 'testcases.TC5_GoogleSignIn')
-data.setCell(8, 3, 398);
+data.setCell(8, 1, 'usedCars')
+data.setCell(8, 2, 'testcases.MainScript')
+data.setCell(8, 3, 19095);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'hondaBikesDetail')
-data.setCell(9, 2, 'testcases.TC3_UpcomingBikes')
-data.setCell(9, 3, 266);
+data.setCell(9, 1, 'googleSignIn')
+data.setCell(9, 2, 'testcases.MainScript')
+data.setCell(9, 3, 10468);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'sortingDetails')
-data.setCell(10, 2, 'testcases.TC3_UpcomingBikes')
-data.setCell(10, 3, 2);
+data.setCell(10, 1, 'googleSignIn')
+data.setCell(10, 2, 'testcases.MainScript')
+data.setCell(10, 3, 7731);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'usedCars')
+data.setCell(11, 2, 'testcases.MainScript')
+data.setCell(11, 3, 1286);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -467,74 +480,125 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC1_BrowserSelect</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">userInput</span>
+              <div class="chronological-class-name">testcases.MainScript</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchURL(chrome)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">selDriver</span>
-                <span class="method-start">1057 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC2_LaunchURL</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">27155 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">getURL</span>
-                <span class="method-start">4635 ms</span>
+                <span class="method-name">upBikes</span>
+                <span class="method-start">27157 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC3_UpcomingBikes</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">84888 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">newUpcomingBikes</span>
-                <span class="method-start">27423 ms</span>
+                <span class="method-name">usedCars</span>
+                <span class="method-start">84889 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">103985 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">makeHonda</span>
-                <span class="method-start">29891 ms</span>
+                <span class="method-name">googleSignIn</span>
+                <span class="method-start">103986 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">hondaBikesDetail</span>
-                <span class="method-start">50175 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">sortingDetails</span>
-                <span class="method-start">50444 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">displayingDetails</span>
-                <span class="method-start">50448 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC4_UsedCars</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">usedCarsChn</span>
-                <span class="method-start">55990 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">popularModels</span>
-                <span class="method-start">72733 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC5_GoogleSignIn</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">signUp</span>
-                <span class="method-start">76144 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">screenshotErrMsg</span>
-                <span class="method-start">85480 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC1_BrowserSelect</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">114456 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-test after">
-                <span class="method-name">closeScQuitBrowser</span>
-                <span class="method-start">85879 ms</span>
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">114457 ms</span>
               </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">launchURL(firefox)</span>
+                <span class="method-start">116132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">170697 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">upBikes</span>
+                <span class="method-start">170698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">202196 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">usedCars</span>
+                <span class="method-start">202197 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">203490 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">googleSignIn</span>
+                <span class="method-start">203492 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">234194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">234195 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">launchURL(edge)</span>
+                <span class="method-start">238952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">276847 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">upBikes</span>
+                <span class="method-start">276849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">302308 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">usedCars</span>
+                <span class="method-start">302310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">327132 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">googleSignIn</span>
+                <span class="method-start">327132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">334864 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">334864 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">336469 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

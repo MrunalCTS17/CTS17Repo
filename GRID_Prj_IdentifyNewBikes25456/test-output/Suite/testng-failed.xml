@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testcases.MainScript">
+        <methods>
+          <include name="googleSignIn"/>
+          <include name="quitBrowser"/>
+          <include name="endReport"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.MainScript -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
